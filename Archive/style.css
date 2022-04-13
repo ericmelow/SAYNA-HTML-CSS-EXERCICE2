@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+/* General css*/
+.container{
+    margin:0 auto;
+    width:80%;
+    overflow:hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* en tete*/
+
+#header{
+    background-color: #27242b;
+    color: #ffffff;
+} 
+.header-nav{
+    min-height: 60px;
+    border-bottom: #6d6d6d 2px solid;
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+}
+header nav a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
