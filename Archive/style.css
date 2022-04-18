@@ -13,9 +13,13 @@ body{
 ul{
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 .bold{
     font-weight: bold;
+}
+.clear{
+    clear: both;
 }
 
 /* en tete*/
@@ -119,6 +123,60 @@ button{
     flex-direction: row;
     justify-content: space-between;
 }
+
+section.avatar{
+    background-color: #27242b;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    margin: 60px;
+}
+section.screenshot{
+    background-color: #e0dbdb;
+    color: #000000;
+}
+
+section .screen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#test-responsive{
+    margin: 5% auto;
+    max-width: 60%;
+    text-align: center;
+    margin: 25px;
+}
+
+#tested-responsive .col1{
+    float: left;
+    width: 50%;
+}
+
+/*...footer....*/
+
+footer section{
+    padding: 45px 0 51px 0;
+}
+
+footer .col1{
+    float: left;
+    width: 33%;
+}
+
+footer .col2{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+footer .col3{
+    float: right;
+    width: 33%;
+}
+
+
+
     
   
 
